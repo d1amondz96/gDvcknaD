@@ -1,0 +1,445 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+	Name = "z Hub [NEW]",
+	LoadingTitle = "Loading...",
+	LoadingSubtitle = "by z76v and d9_6",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil,
+		FileName = "z76v and d9_6!"
+	},
+	Discord = {
+		Enabled = false,
+		Invite = "u4Qx3nXS",
+		RememberJoins = true
+	},
+	KeySystem = false,
+	KeySettings = {
+		Title = "Untitled",
+		Subtitle = "Key System",
+		Note = "No method of obtaining the key is provided",
+		FileName = "Key",
+		SaveKey = true,
+		GrabKeyFromSite = false,
+		Key = {"Hello"}
+	}
+})
+
+local MainTab = Window:CreateTab("Universal", nil)
+local MainSection = MainTab:CreateSection("Main")
+
+Rayfield:Notify({
+	Title = "We took along time making this script!",
+	Content = "Enjoy the Script",
+	Duration = 5,
+	Image = nil,
+	Actions = { 
+		Ignore = {
+			Name = "Okay!",
+			Callback = function()
+				print("Thanks")
+			end
+		},
+	},
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Nameless Admin",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source"))();
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "R6 FE Chill NO HATS",
+	Callback = function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Chill-14288"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Universal Aimbot",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/D1amond96/Universal-Aimbot/refs/heads/main/dsadasd",true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "FE Fling All",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Dark Dex",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/PD4mWEnc",true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Gravity Gun",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty11.lua"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Animation Changer (R15)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WaveStorag/Selenix/refs/heads/main/sac-main"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Remote Spy",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/d1amondz96/vdsvdsa/refs/heads/main/dsagads",true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Parkour V2",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/Wj9f522J",true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "R15 To R6 (FE)",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'),true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Zombie Fling (R15)",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastefy.app/n42Ougzx/raw'),true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Unnamed ESP",
+	Callback = function()
+		pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+	end,
+})
+
+local MainTab = Window:CreateTab("Games [Lower Executors!]", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Games")
+
+local Button = MainTab:CreateButton({
+	Name = "MM2 Script",
+	Callback = function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/mm2/main/mm2"), true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Kick Off",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/d1amondz96/njnsdVasjn-cDs/refs/heads/main/dsadaGDc",true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Block RNG",
+	Callback = function()
+		local args = {
+			[1] = "Rare",
+			[2] = {
+				["moneyValue"] = math.huge,
+				["blockName"] = "Rare", 
+				["chance"] = 8,
+				["color"] = Color3.new(0, 1, 0),
+				["id"] = 3
+			}
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BlockHit"):FireServer(unpack(args))
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Breaking Point",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack%20v1.2.lua"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Blade Ball ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Piggy Script",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Piggy'),true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Lucky Blocks Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/lucky-block-v1/main/script%20v1%20beta"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Ultimate Lifting Simulator OP SCRIPT!",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/YWqChWs9"))();
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Prison Life Script",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "IceBreaker Inf Cash",
+	Callback = function()
+		-- NOTIFICTION MADE BY Z76V
+		Rayfield:Notify({
+			Title = "Icebreaker",
+			Content = "Made by z76v",
+			Duration = 3,
+			Image = nil,
+			Actions = { 
+				Ignore = {
+					Name = "Okay!",
+					Callback = function()
+						print("Thanks")
+					end
+				},
+			},
+		})
+		--Made By z76v *NOTE IF YOU SPAM YOU GET MORE COINS*
+
+		while true do
+			local args = {
+				[1] = 221
+			}
+
+			game:GetService("ReplicatedStorage").removeDebris:FireServer(unpack(args))
+			wait()
+		end
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Tower of Hell GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Tower-of-Hell-Starry-OP-Auto-Farm-Fling-God-Mode-SO-MUCH-MORE-24768"))()
+	end,
+})
+
+
+local Button = MainTab:CreateButton({
+	Name = "Break In (Story) Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Break-In-(Story)-X-Hub-4566"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Break In 2 (Story) Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://freenote.biz/raw/80jXm2Q0a7",true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Superhero Simulator (Inf Coins)",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/qmk5ek30'),true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Legends Of Speed ⚡",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheScriptPirate/ProjectOmega/main/ProjectOmegaLoader.lua"))() 
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Natural Disaster Survival",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8'))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Arsenal",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/QPScript/Script/main/Arsenal.txt"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Viking Simulator",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/91x0wWx8", true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Slap Battles",
+	Callback = function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/TestMain/main/SLAPBATTLESGUI5")))() 
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Cart Ride Into Rdite!",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/Xh5N98yp"))();
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "a dusty trip",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Race Clicker ⚡",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/CUkKFaQy"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Flee The Facility",
+	Callback = function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Ninja Legends ",
+	Callback = function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "A Wolf Or Other Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://paste.ee/r/NuSeu", true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Brookhaven",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+	end,
+})
+
+
+local Button = MainTab:CreateButton({
+	Name = "Brookhaven (TROLL GUI)",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Muscle Legends",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+	end,
+})
+
+local MainTab = Window:CreateTab("Games [Higher Executors!]", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Games")
+
+local Button = MainTab:CreateButton({
+	Name = "Giant Survival",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/scripts/main/GiantSurvival.lua"))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Vape V4 (BedWars)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Funky Friday",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Bart3kk/funky-friday-autoplay/main/script.lua'))()
+	end,
+})
+
+local MainTab = Window:CreateTab("Visual", nil)
+local MainSection = MainTab:CreateSection("Visual")
+
+local Slider = MainTab:CreateSlider({
+	Name = "Walkspeed Slider",
+	Range = {1, 800},
+	Increment = 1,
+	Suffix = "Speed",
+	CurrentValue = 16,
+	Flag = "Slider1",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+	end,
+})
+
+local Slider = MainTab:CreateSlider({
+	Name = "Jumppower Slider",
+	Range = {1, 800},
+	Increment = 1,
+	Suffix = "Jump Power",
+	CurrentValue = 50,
+	Flag = "Slider1", 
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Click To Teleport",
+	Callback = function()
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		local tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click Teleport"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	end,
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Noclip",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/QqSGwcYJ"))();
+	end,
+})
